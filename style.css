@@ -1,0 +1,35 @@
+html {
+  cursor: url(cursor.cur), auto;
+}
+body {
+  background-color: #110F1B;
+  color: white;
+  font-size: 5vw;
+  letter-spacing: 1vw;
+
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 0.5vw;
+  margin-top: 15px;
+  letter-spacing: 0.5vh;
+}
+
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  z-index: 1000;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+
+  body {
+  font-size: 10vw;
+  }
+
+}
