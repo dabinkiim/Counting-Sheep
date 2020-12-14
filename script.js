@@ -14,14 +14,17 @@ $(document).ready(function() {
     for (i = 0; i <count; i++) {
       sheep_count += "🐑";
     }
+    $('.header').html(count+' sheep');
     $('.count').html(sheep_count);
 
     //제목으로 출력
-    document.title = count;
+    document.title = count+' sheep';
 
     //값 출력
-    $output.text("");
-    $output.text(count);
+    //$output.text("");
+    //$output.text(count);
   },1000);
+
+
 
 })
